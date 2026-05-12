@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Search, MapPin, Phone, Store } from 'lucide-react';
 import LoadingModal from '../../components/LoadingModal';
 import { api } from '../../api';
@@ -110,7 +110,7 @@ const SearchStore = () => {
                   )}
                   <InfoRow label="QLKV" value={shop.QLKV} />
                   <InfoRow label="GĐV"  value={shop.GDV}  />
-                  <InfoRow label="KSTT" value={shop.KSTT} />
+                  <InfoRow label="GSKK" value={shop.GSKK} />
                 </div>
 
                 {shop.lat && shop.long && (

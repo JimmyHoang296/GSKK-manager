@@ -1,4 +1,4 @@
-import { LogOut, Menu, RefreshCw, UserCircle } from 'lucide-react';
+﻿import { LogOut, Menu, RefreshCw, UserCircle } from 'lucide-react';
 import React, { useState } from 'react';
 import useStore from '../store/useStore';
 
@@ -35,7 +35,7 @@ const Header = () => {
 
       {/* App title — mobile center */}
       <span className="text-lg font-bold text-red-800 lg:hidden absolute left-1/2 -translate-x-1/2">
-        KSTT WCM
+        GSKK WCM
       </span>
 
       <div className="hidden lg:block" />

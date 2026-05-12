@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import LoadingModal from "../../components/LoadingModal";
 import { api } from "../../api";
 import useStore from "../../store/useStore";
@@ -35,8 +35,8 @@ const Login = () => {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-50 via-white to-red-50 p-4">
       <div className="bg-white rounded-2xl shadow-xl w-full max-w-sm overflow-hidden">
         <div className="bg-red-800 px-8 py-6 text-center">
-          <h1 className="text-2xl font-bold text-white tracking-wide">KSTT WCM</h1>
-          <p className="text-red-200 text-sm mt-1">Hệ thống quản lý KSTT</p>
+          <h1 className="text-2xl font-bold text-white tracking-wide">GSKK WCM</h1>
+          <p className="text-red-200 text-sm mt-1">Hệ thống quản lý GSKK</p>
         </div>
 
         <form onSubmit={handleLogin} className="px-8 py-7 space-y-5">
